@@ -28,7 +28,7 @@ def brain_even():
             flag = False
             break    
     if flag == True:
-        print(f'Congratulations, {name}!')
+        print(f'Correct!\nCongratulations, {name}!')
     else:
         print(f"'{answer}' is wrong answer ;(. Correct answer was '{yes_no}'.\nLet's try again, {name}!")
             
