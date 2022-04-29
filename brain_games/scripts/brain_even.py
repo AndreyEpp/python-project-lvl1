@@ -11,6 +11,7 @@ def brain_even():
     answer = prompt.string(f'Your answer: ' )
     i = 0
     flag = True
+    yes_no = 'no'
     while i < 2:
         if num % 2 == 0 and answer == 'yes' or num % 2 != 0 and answer == 'no' :
             print(f'Correct!')
@@ -20,12 +21,16 @@ def brain_even():
             print(f'Question: {num}')
             answer = prompt.string(f'Your answer: ' )
         else:
+            if answer == 'no':
+                yes_no = 'yes'
+            else:
+                yes_no  = 'no'
             flag = False
             break    
     if flag == True:
         print(f'Congratulations, {name}!')
     else:
-        print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")
+        print(f"'{answer}' is wrong answer ;(. Correct answer was '{yes_no}'.\nLet's try again, {name}!")
             
 
 
