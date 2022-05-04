@@ -15,5 +15,20 @@
 
 ![workflow](https://github.com/AndreyEpp/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
+
+### Brain Games
+[![asciicast](https://asciinema.org/a/YrUgRnLQUXmSkEsbUq2uddiRc.svg)](https://asciinema.org/a/YrUgRnLQUXmSkEsbUq2uddiRc)
+
+### Brain Calc
 [![asciicast](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1.svg)](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1)
 
+### Brain Even
+[![asciicast](https://asciinema.org/a/NFIuzq10OYWhRRiOOQKx5qag4.svg)](https://asciinema.org/a/NFIuzq10OYWhRRiOOQKx5qag4)
+
+### Brain Gcd
+[![asciicast](https://asciinema.org/a/ww86BXIYE47KAuBElFsi1L2IR.svg)](https://asciinema.org/a/ww86BXIYE47KAuBElFsi1L2IR)
+
+### Brain Prime
+[![asciicast](https://asciinema.org/a/aJhgwY2DOc7OTFZ4fhaPj95rr.svg)](https://asciinema.org/a/aJhgwY2DOc7OTFZ4fhaPj95rr)
+
+### Brain Progression

@@ -13,9 +13,9 @@ def brain_progression():
         list_a = []
         num_start = random.randint(1, 10)
         len_list = random.randint(5, 10)
-        index_zameny = random.randint(1, len_list)
+        index_zameny = random.randint(0, len_list)
         s = ''
-        for num in range(0, len_list):
+        for num in range(0, len_list + 1):
             list_a.append(num_start * (num+1))
             if index_zameny == num:
                 s = s + '.. '
