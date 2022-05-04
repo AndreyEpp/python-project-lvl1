@@ -15,12 +15,5 @@
 
 ![workflow](https://github.com/AndreyEpp/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
-https://asciinema.org/a/lWJ3o06ud1QsmQmV0FPArGcBI
+[![asciicast](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1.svg)](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1)
 
-https://asciinema.org/a/GDBveOMRTDKpnWRyDUFH90Yxn
-
-https://asciinema.org/a/B0ChpFKZe8gJCmG9pYePQH3Vd
-
-https://asciinema.org/a/ZOdxOiHa8CKrU2SqAOkcKiW9z
-
-https://asciinema.org/a/hRPeFdsZRmg3OpL93Nvbp0Z5Y
