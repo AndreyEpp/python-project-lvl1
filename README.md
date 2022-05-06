@@ -32,3 +32,4 @@
 [![asciicast](https://asciinema.org/a/aJhgwY2DOc7OTFZ4fhaPj95rr.svg)](https://asciinema.org/a/aJhgwY2DOc7OTFZ4fhaPj95rr)
 
 ### Brain Progression
+[![asciicast](https://asciinema.org/a/9r8owdb85hYYyMcOvrUGoMHhp.svg)](https://asciinema.org/a/9r8owdb85hYYyMcOvrUGoMHhp)
