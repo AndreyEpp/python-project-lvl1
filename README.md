@@ -13,7 +13,7 @@
    :target: https://codeclimate.com/github/AndreyEpp/python-project-lvl1/maintainability
    :alt: Maintainability
 
-![workflow](https://github.com/AndreyEpp/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
+[![workflow]](https://github.com/AndreyEpp/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
 
 ### Brain Games
