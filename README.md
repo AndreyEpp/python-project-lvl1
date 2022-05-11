@@ -1,9 +1,11 @@
+### Brain Games
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/AndreyEpp/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/AndreyEpp/python-project-lvl1/actions)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/754de1c60ecc65648e40/maintainability)](https://codeclimate.com/github/AndreyEpp/python-project-lvl1/maintainability)
 
-[![workflow]](https://github.com/AndreyEpp/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
+
 
 This is the first of four training projects on the Python Software Developer course on [Hexlet.io](https://ru.hexlet.io/professions/python/projects/49)
 
@@ -15,8 +17,6 @@ The package contains five simple mathematics quiz games:
 - Arithmetic progression `brain-progression`
 - Prime number `brain-prime`
 
-### Brain Games
-[![asciicast](https://asciinema.org/a/YrUgRnLQUXmSkEsbUq2uddiRc.svg)](https://asciinema.org/a/YrUgRnLQUXmSkEsbUq2uddiRc)
 
 ### Brain Calc
 [![asciicast](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1.svg)](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1)
