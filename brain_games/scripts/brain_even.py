@@ -7,7 +7,6 @@ def brain_even():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(f'Answer "yes" if the number is even, otherwise answer "no".')
-<<<<<<< HEAD
     i = 0
     flag = True
     yes_no = 'no'
@@ -19,22 +18,6 @@ def brain_even():
             print(f'Correct!')
             i = i + 1
             flag = True
-=======
-    num = random.randint(0, 100)
-    print(f'Question: {num}')
-    answer = prompt.string(f'Your answer: ')
-    i = 0
-    flag = True
-    yes_no = 'no'
-    while i < 2:
-        if num % 2 == 0 and answer == 'yes' or num % 2 != 0 and answer == 'no':
-            print(f'Correct!')
-            i = i + 1
-            flag = True
-            num = random.randint(0, 100)
-            print(f'Question: {num}')
-            answer = prompt.string(f'Your answer: ')
->>>>>>> refs/remotes/origin/main
         else:
             if answer == 'no':
                 yes_no = 'yes'
