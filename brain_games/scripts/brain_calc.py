@@ -1,6 +1,7 @@
 import prompt
 import random
 
+
 def brain_calc():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -9,12 +10,12 @@ def brain_calc():
     i = 0
     flag = True
     while i < 3:
-        num1 = random.randint(0,100)
-        num2 = random.randint(0,100)
-        foo = ['+','-','*']
+        num1 = random.randint(0, 100)
+        num2 = random.randint(0, 100)
+        foo = ['+', '-', '*']
         oper = random.choice(foo)
         if oper == '+':
-             check = num1 + num2
+            check = num1 + num2
         elif oper == '-':
             check = num1 - num2
         else:
@@ -34,9 +35,10 @@ def brain_calc():
     else:
         print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")
 
+
 def main():
     brain_calc()
 
 
-if __name__== '__main__':
+if __name__ == '__main__':
     main()

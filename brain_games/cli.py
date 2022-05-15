@@ -1,5 +1,6 @@
 import prompt
 
+
 def welcome_user():
-    name = prompt.string('May I have your name? ')
-    answer = promt.string(f'Your answer: ' )
+    name = prompt.string(f'May I have your name? ')
+    answer = prompt.string(f'Your answer: ')

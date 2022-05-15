@@ -2,6 +2,7 @@ import prompt
 import random
 import math
 
+
 def brain_progression():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -16,11 +17,11 @@ def brain_progression():
         index_zameny = random.randint(0, len_list)
         s = ''
         for num in range(0, len_list + 1):
-            list_a.append(num_start * (num+1))
+            list_a.append(num_start * (num + 1))
             if index_zameny == num:
                 s = s + '.. '
             else:
-                s = s + str(num_start * (num+1)) + ' '
+                s = s + str(num_start * (num + 1)) + ' '
         value_zameny = list_a[index_zameny]
         print(f'Question: {s}')
         answer = prompt.string('Your answer: ')
@@ -37,9 +38,10 @@ def brain_progression():
     else:
         print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")
 
+
 def main():
     brain_progression()
 
 
-if __name__== '__main__':
+if __name__ == '__main__':
     main()

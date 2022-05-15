@@ -2,6 +2,7 @@ import prompt
 import random
 import math
 
+
 def brain_prime():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -10,7 +11,7 @@ def brain_prime():
     flag = True
     i = 0
     while i < 3:
-        num = random.randint(0,100)
+        num = random.randint(0, 100)
         k = 0
         print(f'Question: {num}')
         for delitel in range(2, num // 2 + 1):
@@ -30,9 +31,10 @@ def brain_prime():
     else:
         print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")
 
+
 def main():
     brain_prime()
 
 
-if __name__== '__main__':
+if __name__ == '__main__':
     main()
