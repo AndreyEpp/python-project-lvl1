@@ -28,8 +28,8 @@ def brain_even():
     if flag == True:
         print(f'Congratulations, {name}!')
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{yes_no}'.\nLet's try again, {name}!")
-
+        print(f"'{answer}' is wrong answer ;(. Correct answer was '{yes_no}'.\n"
+              f"Let's try again, {name}!")
 
 
 def main():
