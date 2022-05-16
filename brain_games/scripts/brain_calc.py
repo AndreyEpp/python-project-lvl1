@@ -30,7 +30,7 @@ def brain_calc():
             flag = False
             break
 
-    if flag == True:
+    if flag:
         print(f'Congratulations, {name}!')
     else:
         print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")
