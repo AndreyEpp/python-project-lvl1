@@ -5,7 +5,7 @@ import random
 def brain_calc():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print('Hello, {}'.format('name!'))
+    print('Hello, {}!'.format(name))
     #print(f'Hello, {name}!')
     print('What is the result of the expression?')
     i = 0
@@ -21,7 +21,7 @@ def brain_calc():
             check = num1 - num2
         else:
             check = num1 * num2
-        print('Question: {} {} {}'.format('num', 'oper', 'num2'))
+        print('Question: {} {} {}'.format(num, oper, num2))
         answer = prompt.string('Your answer: ')
         if int(answer) == check:
             print('Correct!')
@@ -33,10 +33,10 @@ def brain_calc():
 
     if flag:
         #print(f'Congratulations, {name}!')
-        print('Congratulations, {}'.format('name'))
+        print('Congratulations, {}!'.format(name))
     else:
         #print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")
-        print("'{}' is wrong answer ;(.\nLet's' try again, {}".format('answer', 'name'))
+        print("'{}' is wrong answer ;(.\nLet's' try again, {}!".format(answer, name))
 
 def main():
     brain_calc()
