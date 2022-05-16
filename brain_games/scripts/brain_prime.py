@@ -1,6 +1,5 @@
 import prompt
 import random
-import math
 
 
 def brain_prime():
