@@ -21,7 +21,7 @@ def brain_calc():
             check = num1 - num2
         else:
             check = num1 * num2
-        print('Question: {} {} {}'.format(num, oper, num2))
+        print('Question: {} {} {}'.format(num1, oper, num2))
         answer = prompt.string('Your answer: ')
         if int(answer) == check:
             print('Correct!')
