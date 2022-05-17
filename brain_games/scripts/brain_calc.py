@@ -33,7 +33,8 @@ def brain_calc():
     if flag:
         print('Congratulations, {}!'.format(name))
     else:
-        print("'{}' is wrong answer ;(.\nLet's try again, {}!".format(answer, name))
+        print("'{}' is wrong answer ;(.\n"
+              "Let's try again, {}!".format(answer, name))
 
 
 def main():

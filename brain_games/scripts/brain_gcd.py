@@ -17,7 +17,7 @@ def brain_gcd():
         print(f'Question: {num1} {num2}')
         answer = prompt.string('Your answer: ')
         if int(answer) == nod:
-            print(f'Correct!')
+            print('Correct!')
             flag = True
             i += 1
         else:
