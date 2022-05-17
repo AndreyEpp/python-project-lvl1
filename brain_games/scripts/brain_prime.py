@@ -1,11 +1,10 @@
 import prompt
 import random
+from brain_games.cli import welcome_user
 
 
 def brain_prime():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     flag = True
     i = 0
