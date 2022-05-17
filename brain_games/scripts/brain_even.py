@@ -5,17 +5,17 @@ import random
 def brain_even():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    print(f'Answer "yes" if the number is even, otherwise answer "no".')
+    print('Hello, {}!'.format(name))
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     flag = True
     yes_no = 'no'
     while i < 3:
         num = random.randint(0, 100)
-        print(f'Question: {num}')
-        answer = prompt.string(f'Your answer: ')
+        print('Question: {}'.format(num)')
+        answer = prompt.string('Your answer: ')
         if num % 2 == 0 and answer == 'yes' or num % 2 != 0 and answer == 'no':
-            print(f'Correct!')
+            print('Correct!')
             i = i + 1
             flag = True
         else:
@@ -25,11 +25,11 @@ def brain_even():
                 yes_no = 'no'
             flag = False
             break
-    if flag == True:
-        print(f'Congratulations, {name}!')
+    if flag:
+        print('Congratulations, {}!'.format(name))
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{yes_no}'.\n"
-              f"Let's try again, {name}!")
+        print("'{}' is wrong answer ;(. Correct answer was '{}'\n".format(answer, yes_no)
+              "Let's try again, {}!".format(name))
 
 
 def main():

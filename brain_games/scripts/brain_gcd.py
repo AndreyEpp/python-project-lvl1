@@ -7,7 +7,7 @@ def brain_gcd():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(f'Find the greatest common divisor of given numbers.')
+    print('Find the greatest common divisor of given numbers.')
     i = 0
     flag = True
     while i < 3:
@@ -24,7 +24,7 @@ def brain_gcd():
             flag = False
             break
 
-    if flag == True:
+    if flag:
         print(f'Congratulations, {name}!')
     else:
         print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")

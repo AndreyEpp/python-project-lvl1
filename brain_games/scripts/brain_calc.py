@@ -6,7 +6,6 @@ def brain_calc():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
-    #print(f'Hello, {name}!')
     print('What is the result of the expression?')
     i = 0
     flag = True
@@ -32,11 +31,10 @@ def brain_calc():
             break
 
     if flag:
-        #print(f'Congratulations, {name}!')
         print('Congratulations, {}!'.format(name))
     else:
-        #print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")
         print("'{}' is wrong answer ;(.\nLet's try again, {}!".format(answer, name))
+
 
 def main():
     brain_calc()

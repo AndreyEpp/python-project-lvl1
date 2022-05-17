@@ -1,13 +1,12 @@
 import prompt
 import random
-import math
 
 
 def brain_progression():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    print(f'What number is missing in the progression?')
+    print('Hello, {name}!')
+    print('What number is missing in the progression?')
     i = 0
     flag = True
     while i < 3:
@@ -26,14 +25,14 @@ def brain_progression():
         print(f'Question: {s}')
         answer = prompt.string('Your answer: ')
         if int(answer) == value_zameny:
-            print(f'Correct!')
+            print('Correct!')
             flag = True
             i += 1
         else:
             flag = False
             break
 
-    if flag == True:
+    if flag:
         print(f'Congratulations, {name}!')
     else:
         print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")

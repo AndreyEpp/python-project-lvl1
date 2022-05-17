@@ -6,7 +6,7 @@ def brain_prime():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(f'Answer "yes" if given number is prime. Otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     flag = True
     i = 0
     while i < 3:
@@ -18,14 +18,14 @@ def brain_prime():
                 k = k + 1
         answer = prompt.string('Your answer: ')
         if answer == 'yes' and k == 0 or answer == 'no' and k != 0:
-            print(f'Correct!')
+            print('Correct!')
             flag = True
             i += 1
         else:
             flag = False
             break
 
-    if flag == True:
+    if flag:
         print(f'Congratulations, {name}!')
     else:
         print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")
