@@ -19,8 +19,6 @@ def brain_prime():
             for delitel in range(2, max_range):
                 if (num % delitel == 0):
                     k = k + 1
-                else:
-                    k = 0
         else:
             if num != 2:
                 k = 1
