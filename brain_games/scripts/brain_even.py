@@ -28,7 +28,7 @@ def brain_even():
     if flag:
         print('Congratulations, {}!'.format(name))
     else:
-        print("'{}' is wrong answer ;(. Correct answer was '{}'\n".format(answer, yes_no)
+        print("'{}' is wrong answer ;(. Correct answer was '{}'\n".format(answer, yes_no)\
               "Let's try again, {}!".format(name))
 
 
