@@ -13,10 +13,18 @@ def brain_prime():
         num = random.randint(0, 100)
         k = 0
         print(f'Question: {num}')
-        for delitel in range(2, num // 2 + 1):
-            if (num % delitel == 0):
-                k = k + 1
         answer = prompt.string('Your answer: ')
+        if num > 2:
+            max_range = num // 2 + 1
+            for delitel in range(2, max_range):
+                if (num % delitel == 0):
+                    k = k + 1
+                else:
+                    k = 0
+        else:
+            if num != 2:
+                k = 1
+
         if answer == 'yes' and k == 0 or answer == 'no' and k != 0:
             print('Correct!')
             flag = True
