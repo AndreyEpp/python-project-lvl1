@@ -4,7 +4,7 @@ from brain_games.cli import welcome_user
 
 
 def brain_prime():
-    welcome_user()
+    name = welcome_user()
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     flag = True
     i = 0
