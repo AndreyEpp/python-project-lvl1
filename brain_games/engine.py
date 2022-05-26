@@ -1,9 +1,6 @@
-''' Game engine functions.
-тут далее уже вся логика, цикл и тут используем
-    логику описанную для каждой игры.'''
+''' Game engine functions.'''
 
-from random import randint
-from brain_games.cli import welcome_user, user_answer
+from brain_games.cli import welcome_user
 
 NUMBER_OF_ROUNDS = 3
 
@@ -26,4 +23,5 @@ def run_game(game):
     if flag:
         print(f'Congratulations, {name}!')
     else:
-        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{check}'\nLet's try again, {name}!")    
+        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{check}'\n"
+              f"Let's try again, {name}!")
