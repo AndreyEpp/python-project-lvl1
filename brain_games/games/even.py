@@ -11,7 +11,7 @@ def get_question_and_answer():
     check = 'no'
     num = random.randint(0, 100)
     print('Question: {}'.format(num))
-    answer = prompt.string('Your answer: ')
+    user_answer = prompt.string('Your answer: ')
     if num % 2 == 0 and user_answer == 'yes' or num % 2 != 0 and user_answer == 'no':
         check = 'yes'
     else:
