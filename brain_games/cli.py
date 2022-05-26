@@ -10,6 +10,6 @@ def welcome_user():
     return name
 
 
-def get_user_answer():
+def user_answer():
     answer = prompt.string('Your answer: ')
     return answer
