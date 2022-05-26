@@ -2,9 +2,9 @@
 
 import prompt
 import random
-from brain_games.engine import run_game
 
 DESCRIPTION = 'What number is missing in the progression?'
+
 
 def get_question_and_answer():
     list_a = []
@@ -22,4 +22,3 @@ def get_question_and_answer():
     print(f'Question: {s}')
     user_answer = int(prompt.string('Your answer: '))
     return check, user_answer
-    
