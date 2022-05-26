@@ -20,7 +20,7 @@ def get_question_and_answer():
         check = num1 * num2
     print(f'Question: {num1} {oper} {num2}')
     user_answer = prompt.string('Your answer: ')    
-    return question, user_answer
+    return check, user_answer
 
 
 # def brain_calc():
