@@ -18,7 +18,7 @@ def get_question_and_answer():
             s = s + '.. '
         else:
             s = s + str(num_start * (num + 1)) + ' '
-    check = int(list_a[index_zameny])
+    check = list_a[index_zameny]
     print(f'Question: {s}')
     user_answer = prompt.string('Your answer: ')
     return check, user_answer
