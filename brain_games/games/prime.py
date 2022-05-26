@@ -15,8 +15,8 @@ def get_question_and_answer():
     for delitel in range(2, max_range):
         if (num % delitel == 0 and delitel < num):
             check = 'no'
-        else:
-            check = 'yes'
             break
+        else:
+            check = 'yes'            
     return check, user_answer
     
