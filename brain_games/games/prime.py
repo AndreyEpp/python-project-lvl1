@@ -2,9 +2,9 @@
 
 import prompt
 import random
-from brain_games.engine import run_game
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def get_question_and_answer():
     num = random.randint(0, 100)
@@ -17,6 +17,5 @@ def get_question_and_answer():
             check = 'no'
             break
         else:
-            check = 'yes'            
+            check = 'yes'
     return check, user_answer
-    
