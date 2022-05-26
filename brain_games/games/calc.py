@@ -19,8 +19,13 @@ def get_question_and_answer():
     else:
         check = num1 * num2
     print(f'Question: {num1} {oper} {num2}')
+<<<<<<< HEAD
     user_answer = prompt.string('Your answer: ')
     return question, user_answer
+=======
+    user_answer = prompt.string('Your answer: ')    
+    return check, user_answer
+>>>>>>> 4b5e290b6fd77757cdf8493816383211090a7b56
 
 
 # def brain_calc():
