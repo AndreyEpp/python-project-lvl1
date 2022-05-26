@@ -14,6 +14,7 @@ def run_game(game):
     correct_answers = 0
     flag = True
     while correct_answers < NUMBER_OF_ROUNDS:
+        check, user_answer = game.get_question_and_answer()
         if user_answer == check:
             print('Correct!')
             flag = True
@@ -25,5 +26,4 @@ def run_game(game):
     if flag:
         print(f'Congratulations, {name}!')
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{check}'\nLet's try again, {name}!")
-    check, user_answer = game.get_question_and_answer()
+        print(f"'{answer}' is wrong answer ;(. Correct answer was '{check}'\nLet's try again, {name}!")    
