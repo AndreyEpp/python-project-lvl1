@@ -18,8 +18,8 @@ def get_question_and_answer():
         check = num1 - num2
     else:
         check = num1 * num2
-    print('Question: {} {} {}'.format(num1, oper, num2))
-    answer = prompt.string('Your answer: ')    
+    print(f'Question: {num1} {oper} {num2}')
+    user_answer = prompt.string('Your answer: ')    
     return question, user_answer
 
 
