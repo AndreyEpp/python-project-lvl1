@@ -1,14 +1,13 @@
+'''Brain even game functions.'''
+
 import prompt
 import random
+from brain_games.engine import run_game
 
 
-def brain_even():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {}!'.format(name))
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    i = 0
-    flag = True
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+def get_question_and_answer():
     yes_no = 'no'
     while i < 3:
         num = random.randint(0, 100)
