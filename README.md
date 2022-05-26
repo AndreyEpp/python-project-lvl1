@@ -16,7 +16,9 @@ The package contains five simple mathematics quiz games:
 ### Installation
 To install the game, use the command:
 
-package-install 
+make package-install 
+
+[![asciicast](https://asciinema.org/a/dxU8qy0hzUfExCE7XawMlDxZn.svg)](https://asciinema.org/a/dxU8qy0hzUfExCE7XawMlDxZn)
 
 ### Brain Calc
 [![asciicast](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1.svg)](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1)
