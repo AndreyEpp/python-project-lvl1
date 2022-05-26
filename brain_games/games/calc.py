@@ -2,6 +2,13 @@ import prompt
 import random
 
 
+DESCRIPTION = 'What is the result of the expression?'
+
+def get_question_and_answer():
+    тут как то создаем пару вопрос и ответ.
+    return question, answer
+
+
 def brain_calc():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
