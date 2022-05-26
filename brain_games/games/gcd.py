@@ -1,38 +1,20 @@
+'''Brain calc game functions.'''
+
 import prompt
 import random
 import math
+from brain_games.engine import run_game
 
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
-def brain_gcd():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    print('Find the greatest common divisor of given numbers.')
-    i = 0
-    flag = True
-    while i < 3:
-        num1 = random.randint(0, 100)
-        num2 = random.randint(0, 100)
-        nod = math.gcd(num1, num2)
-        print(f'Question: {num1} {num2}')
-        answer = prompt.string('Your answer: ')
-        if int(answer) == nod:
-            print('Correct!')
-            flag = True
-            i += 1
-        else:
-            flag = False
-            break
-
-    if flag:
-        print(f'Congratulations, {name}!')
+def get_question_and_answer():
+    num1 = random.randint(0, 100)
+    num2 = random.randint(0, 100)
+    nod = math.gcd(num1, num2)
+    print(f'Question: {num1} {num2}')
+    user_answer = prompt.string('Your answer: ')
+    if int(user_answer) == nod:
+        check = 'yes'
     else:
-        print(f"'{answer}' is wrong answer ;(.\nLet's try again, {name}!")
-
-
-def main():
-    brain_gcd()
-
-
-if __name__ == '__main__':
-    main()
+        check = 'no'
+    return check, user_answer
