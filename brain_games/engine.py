@@ -23,5 +23,6 @@ def run_game(game):
     if flag:
         print(f'Congratulations, {name}!')
     else:
-        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{check}'\n"
+        print(f"'{user_answer}' is wrong answer ;(."
+              f"Correct answer was '{check}'\n"
               f"Let's try again, {name}!")
