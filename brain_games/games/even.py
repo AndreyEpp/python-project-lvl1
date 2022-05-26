@@ -2,10 +2,10 @@
 
 import prompt
 import random
-from brain_games.engine import run_game
 
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def get_question_and_answer():
     check = 'no'
@@ -17,4 +17,3 @@ def get_question_and_answer():
     else:
         check = 'no'
     return check, user_answer
-       
