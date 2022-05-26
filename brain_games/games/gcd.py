@@ -1,4 +1,4 @@
-'''Brain calc game functions.'''
+'''Brain gcd game functions.'''
 
 import prompt
 import random
