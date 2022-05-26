@@ -2,10 +2,10 @@
 
 import prompt
 import random
-from brain_games.engine import run_game
 
 
 DESCRIPTION = 'What is the result of the expression?'
+
 
 def get_question_and_answer():
     num1 = random.randint(0, 100)
@@ -19,5 +19,5 @@ def get_question_and_answer():
     else:
         check = num1 * num2
     print(f'Question: {num1} {oper} {num2}')
-    user_answer = int(prompt.string('Your answer: '))    
+    user_answer = int(prompt.string('Your answer: '))   
     return check, user_answer
