@@ -14,9 +14,9 @@ The package contains five simple mathematics quiz games:
 - Prime number `brain-prime`
 
 ### Installation
-Use the package manager pip to install Brain Games.
+To install the game, use the command:
 
-pip install --user --extra-index-url 
+package-install 
 
 ### Brain Calc
 [![asciicast](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1.svg)](https://asciinema.org/a/A90Jr2WKTTWGlSeoxfcR8dfy1)
