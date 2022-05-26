@@ -19,7 +19,7 @@ def get_question_and_answer():
     else:
         check = num1 * num2
     print(f'Question: {num1} {oper} {num2}')
-    user_answer = prompt.string('Your answer: ')    
+    user_answer = int(prompt.string('Your answer: '))    
     return check, user_answer
 
 
