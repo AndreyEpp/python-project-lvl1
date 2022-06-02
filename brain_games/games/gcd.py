@@ -1,6 +1,5 @@
 '''Brain gcd game functions.'''
 
-import prompt
 import random
 import math
 
@@ -12,4 +11,4 @@ def get_question_and_answer():
     num2 = random.randint(0, 100)
     question = f'{num1} {num2}'
     answer = math.gcd(num1, num2)
-    return check, user_answer
+    return question, str(answer)
