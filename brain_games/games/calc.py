@@ -1,6 +1,5 @@
 '''Brain calc game functions.'''
 
-import prompt
 import random
 
 
@@ -13,11 +12,10 @@ def get_question_and_answer():
     foo = ['+', '-', '*']
     oper = random.choice(foo)
     if oper == '+':
-        check = num1 + num2
+        answer = num1 + num2
     elif oper == '-':
-        check = num1 - num2
+        answer = num1 - num2
     else:
-        check = num1 * num2
-    print(f'Question: {num1} {oper} {num2}')
-    user_answer = int(prompt.string('Your answer: '))
-    return check, user_answer
+        answer = num1 * num2
+    question = f'{num1} {oper} {num2}'
+    return question, str(answer)

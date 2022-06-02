@@ -1,6 +1,5 @@
 '''Brain prime game functions.'''
 
-import prompt
 import random
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -20,7 +19,6 @@ def is_prime(num):
 
 def get_question_and_answer():
     num = random.randint(0, 100)
-    print(f'Question: {num}')
-    user_answer = prompt.string('Your answer: ')
-    check = 'yes' if is_prime(num) else 'no'
-    return check, user_answer
+    question = f'{num}'
+    answer = 'yes' if is_prime(num) else 'no'
+    return question, answer
