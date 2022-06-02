@@ -11,7 +11,9 @@ def run_game(game):
     correct_answers = 0
     flag = True
     while correct_answers < NUMBER_OF_ROUNDS:
-        check, user_answer = game.get_question_and_answer()
+        check, question = game.get_question_and_answer()
+        print(f'Question: {question}')
+        user_answer = prompt.string('Your answer: ')
         if user_answer == check:
             print('Correct!')
             flag = True
