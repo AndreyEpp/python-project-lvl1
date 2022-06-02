@@ -16,7 +16,6 @@ def is_prime(num):
     return True
 
 
-
 def get_question_and_answer():
     num = random.randint(0, 100)
     question = f'{num}'
