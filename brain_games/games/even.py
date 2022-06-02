@@ -8,12 +8,8 @@ DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def get_question_and_answer():
-    check = 'no'
-    num = random.randint(0, 100)
-    print(f'Question: {num}')
+    question = random.randint(0, 100)
+    print(f'Question: {question}')
     user_answer = prompt.string('Your answer: ')
-    if num % 2 == 0:
-        check = 'yes'
-    else:
-        check = 'no'
+    check = 'no' if question % 2 else 'yes'
     return check, user_answer
