@@ -1,6 +1,8 @@
 ### Brain Games
 
-[![Actions Status](https://github.com/AndreyEpp/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/AndreyEpp/python-project-lvl1/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/754de1c60ecc65648e40/maintainability)](https://codeclimate.com/github/AndreyEpp/python-project-lvl1/maintainability)
+[![Actions Status](https://github.com/AndreyEpp/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/AndreyEpp/python-project-lvl1/actions)
+[![workflow](https://github.com/AndreyEpp/python-project-lvl1/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/AndreyEpp/python-project-lvl1/actions/workflows/github-actions-demo.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/754de1c60ecc65648e40/maintainability)](https://codeclimate.com/github/AndreyEpp/python-project-lvl1/maintainability)
 
 
 This is the first of four training projects on the Python Software Developer course on [Hexlet.io](https://ru.hexlet.io/professions/python/projects/49)
