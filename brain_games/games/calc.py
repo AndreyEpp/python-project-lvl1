@@ -17,5 +17,5 @@ def get_question_and_answer():
     }
     operation = random.choice(list(operations.keys()))
     answer = str(operations[operation](num1, num2))
-    question = f'{num1} {oper} {num2}'
+    question = f'{num1} {operation} {num2}'
     return question, answer
