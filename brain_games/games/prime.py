@@ -8,7 +8,7 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def is_prime(num):
     max_range = num // 2 + 2
     for delitel in range(2, max_range):
-        if (num % delitel == 0 and delitel < num):
+        if num == 1 or (num % delitel == 0 and delitel < num):
             return False
             break
         else:
