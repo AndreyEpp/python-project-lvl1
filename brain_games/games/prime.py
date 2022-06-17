@@ -6,13 +6,18 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
-    max_range = num // 2 + 2
-    for delitel in range(2, max_range):
-        if num == 1 or (num % delitel == 0 and delitel < num):
+    if num < 2:
+        return False
+    if num == 2:
+        return True
+    if num > 2 and not num % 2:
+        return False
+
+    div = 3
+    while div <= num // 2:
+        if not num % div:
             return False
-            break
-        else:
-            continue
+        div += 2
     return True
 
 
